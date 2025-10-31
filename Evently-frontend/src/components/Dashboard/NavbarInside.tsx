@@ -56,7 +56,7 @@ const DashboardNavbar = () => {
 
         {/* ✅ New QR Scanner Button */}
         <button
-          onClick={() => navigate("/scanner")}
+          onClick={() => navigate("/qrscanner")}
           className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-sm transition-all ${
             location.pathname === "/scanner"
               ? "bg-indigo-500 text-white shadow-md"
